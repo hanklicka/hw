@@ -28,7 +28,7 @@ int main() {
 		double vysledek = (2 * strana + 2 * pow(abs (pow(strana, 2) - pow(uhlopricka, 2)), 0.5));
 		cout << "Výsledek je: ";
 		cout << fixed << setprecision(2) << vysledek << endl;
-		return (2 * strana + 2 * pow(abs (pow(strana, 2) - pow(uhlopricka, 2)), 0.5));
+		return 1;
 	} else {
     	cout << "Člověče, už jsi viděl obdelník s nulovou nebo zápornou stranou či úhlopříčkou?" << endl;
     	cout << "Vzpamatuj se!" << endl;
